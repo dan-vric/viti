@@ -1,0 +1,9 @@
+sudo nano /etc/dhcpcd.conf
+
+
+add these lines:
+
+interface wlan0
+static ip_address=192.168.81.240
+static routers=192.168.80.254
+static domain_name_servers=192.168.80.1
