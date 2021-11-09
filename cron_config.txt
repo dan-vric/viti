@@ -1,0 +1,7 @@
+crontab -e
+
+add this line to crontab:
+
+MAILTO=daniel.bath@vinelandresearch.com
+*/5 * * * * /usr/bin/python3 /home/pi/viti/record.py > /tmp/record.log 2>&1
+

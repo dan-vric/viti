@@ -1,0 +1,1 @@
+sudo mount -t cifs //192.168.80.1/Automation /media/VRIC -o username=daniel.bath,password=4Fxahil3,vers=1.0
