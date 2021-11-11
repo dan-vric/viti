@@ -13,6 +13,6 @@ camera.exposure_mode='auto'
 camera.awb_mode='auto'
 #camera.annotate_text = "Hello world!"
 sleep(5)
-camera.capture('/home/pi/DATA/' + HOST + '-' + TIMESTAMP + '.jpg')
+camera.capture('/home/pi/DATA/' + HOST + '_' + TIMESTAMP + '.jpg')
 camera.stop_preview()
 print("job done")
